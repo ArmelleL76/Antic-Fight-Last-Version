@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D59BE40A23EDB8B200692489 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BE40923EDB8B200692489 /* main.swift */; };
+		D59BE41123EDB8CF00692489 /* weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BE41023EDB8CF00692489 /* weapon.swift */; };
+		D59BE41323EDB97100692489 /* Ax.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BE41223EDB97100692489 /* Ax.swift */; };
+		D59BE41523EDBA0800692489 /* broadSword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BE41423EDBA0800692489 /* broadSword.swift */; };
+		D59BE41723EDBB0A00692489 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59BE41623EDBB0A00692489 /* Sword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		D59BE40623EDB8B200692489 /* Antic Fight-Last Version */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Antic Fight-Last Version"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59BE40923EDB8B200692489 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D59BE41023EDB8CF00692489 /* weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weapon.swift; sourceTree = "<group>"; };
+		D59BE41223EDB97100692489 /* Ax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ax.swift; sourceTree = "<group>"; };
+		D59BE41423EDBA0800692489 /* broadSword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broadSword.swift; sourceTree = "<group>"; };
+		D59BE41623EDBB0A00692489 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				D59BE40923EDB8B200692489 /* main.swift */,
+				D59BE41023EDB8CF00692489 /* weapon.swift */,
+				D59BE41223EDB97100692489 /* Ax.swift */,
+				D59BE41423EDBA0800692489 /* broadSword.swift */,
+				D59BE41623EDBB0A00692489 /* Sword.swift */,
 			);
 			path = "Antic Fight-Last Version";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59BE41723EDBB0A00692489 /* Sword.swift in Sources */,
 				D59BE40A23EDB8B200692489 /* main.swift in Sources */,
+				D59BE41123EDB8CF00692489 /* weapon.swift in Sources */,
+				D59BE41523EDBA0800692489 /* broadSword.swift in Sources */,
+				D59BE41323EDB97100692489 /* Ax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
